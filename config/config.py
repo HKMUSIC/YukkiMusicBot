@@ -17,14 +17,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("29791926", ""))
+API_HASH = getenv("550ae225aaa88c599cf71983f40c86ac")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("8077218683:AAEkLo0oU38g_TiwVjMSJ299B3zCklHRNrM")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("mongodb+srv://HKMUSIC:<db_HKMUSIC@cluster0.vo9ib.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", None)
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
@@ -37,14 +37,14 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("-4705565341", ""))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
+MUSIC_BOT_NAME = getenv("HK MUSIC BOT")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "").split())
+    map(int, getenv("6720017767", "").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -66,10 +66,10 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", None
-)  # Example:- https://t.me/TheYukki
+)  # Example:- https://t.me/hkmusic4
 SUPPORT_GROUP = getenv(
     "SUPPORT_GROUP", None
-)  # Example:- https://t.me/YukkiSupport
+)  # Example:- https://t.me/hkmusic4
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
@@ -103,8 +103,8 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 GITHUB_REPO = getenv("GITHUB_REPO", None)
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
+SPOTIFY_CLIENT_ID = getenv("ff16281232b0423b853fcd77e56c431a", None)
+SPOTIFY_CLIENT_SECRET = getenv("4b7f4f59a0ae4072a108ce9c65d416ee", None)
 
 # Maximum number of video calls allowed on bot. You can later set it via /set_video_limit on telegram
 VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "3"))
