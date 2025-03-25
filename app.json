@@ -13,12 +13,12 @@
     ],
     "stack": "container",
     "env": {
-      "API_ID": {
+      "API_ID":29791926 {
         "description": "Get this value from https://my.telegram.org",
         "value": "",
         "required": true
       },
-      "API_HASH": {
+      "API_HASH":550ae225aaa88c599cf71983f40c86ac {
         "description": "Get this value from https://my.telegram.org",
         "value": "",
         "required": true
@@ -28,27 +28,28 @@
         "value": "True",
         "required": false
       },
-      "BOT_TOKEN": {
+      "BOT_TOKEN"
+8077218683:AAEkLo0oU38g_TiwVjMSJ299B3zCklHRNrM {
         "description": "A Bot's token from Botfather",
         "value": "",
         "required": true
       },
-      "MONGO_DB_URI": {
+      "MONGO_DB_URI":mongodb+srv://HKMUSIC:<db_HKMUSIC@cluster0.vo9ib.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0 {
         "description": "Get a mongodb url from https://cloud.mongodb.com . You can leave it blank if you want , bot will use Yukki's database for you.",
         "value": "",
         "required": true
       },
-      "MUSIC_BOT_NAME": {
+      "MUSIC_BOT_NAME":HK MUSIC {
         "description": "A name for your Music Bot. Please don't use ascii characters",
         "value": "",
         "required": true
       },
-      "OWNER_ID": {
+      "OWNER_ID":6720017767 {
         "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
         "value": "",
         "required": true
       },
-      "STRING_SESSION": {
+      "STRING_SESSION":BQHGlrYAuZYGy94y-unYeJ-pExVSxQ-bztKgY7XHmrKU1jQb6M_5Zqqm2VR6COl-v3hYDo8an85h6K7RxxY6Xzcj-1zhLOYhEM6BWXiiBmr7GPA24SsTmMglKnEGX0GJg_4YBaxCOfaHCvzLl806OCGFUxgw3NrWK_tkpwxjMMI4tRLL2qYwUgwcUKd-Qc3IbgOj61_mOB4mbJMXkT6aapw0m3XcCCElhZIiQIclnsMqmh8JZLeNPu-Zrt8yI78MememPj-F3dbY-PEhomr2wg3MJTcczAzJuO_3YRz1NTXb97FaKNuZal7GVoRuYjiav5gEytVxg4ZqKLzi3v-HGhYcsPdD9gAAAAGQi1VnAA {
         "description": "A Pyrogram String Session. One Assistant is Compulsory.",
         "value": "",
         "required": true
@@ -63,7 +64,7 @@
         "value": "",
         "required": false
       },
-      "LOG_GROUP_ID": {
+      "LOG_GROUP_ID":-4705565341 {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
         "value": "",
         "required": true
