@@ -191,12 +191,12 @@ STATS_IMG_URL = getenv(
 )
 
 TELEGRAM_AUDIO_URL = getenv(
-    "TELEGRAM_AUDIO_URL",
+    "AgADwhkAApkGEFc",
     "assets/Audio.jpeg",
 )
 
 TELEGRAM_VIDEO_URL = getenv(
-    "TELEGRAM_VIDEO_URL",
+    "AAMCBQADGQEB5Eo3Z-JQE4oeimOnlZRUOJdvbAzS8yQAAsMZAAKZBhBXvbhdnqhJZgIBAAdtAAM2BA",
     "assets/Video.jpeg",
 )
 
