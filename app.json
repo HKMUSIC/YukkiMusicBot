@@ -1,5 +1,5 @@
 {
-    "name": "Yukki Music Bot",
+    "name": "HK MUSIC",
     "description": "Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls. Supporting platforms like Youtube, Spotify, Resso, AppleMusic, Soundcloud and M3u8 Links.",
     "logo": "https://telegra.ph/file/c0e014ff34f34d1056627.png",
     "keywords": [
@@ -13,14 +13,14 @@
     ],
     "stack": "container",
     "env": {
-      "API_ID":29791926 {
+      "API_ID":{
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "29791926",
         "required": true
       },
-      "API_HASH":550ae225aaa88c599cf71983f40c86ac {
+      "API_HASH":{
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "550ae225aaa88c599cf71983f40c86ac",
         "required": true
       },
       "AUTO_LEAVING_ASSISTANT": {
@@ -28,30 +28,29 @@
         "value": "True",
         "required": false
       },
-      "BOT_TOKEN"
-8077218683:AAEkLo0oU38g_TiwVjMSJ299B3zCklHRNrM {
+      "BOT_TOKEN" {
         "description": "A Bot's token from Botfather",
-        "value": "",
+        "value": "8077218683:AAEkLo0oU38g_TiwVjMSJ299B3zCklHRNrM",
         "required": true
       },
-      "MONGO_DB_URI":mongodb+srv://HKMUSIC:<db_HKMUSIC@cluster0.vo9ib.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0 {
+      "MONGO_DB_URI":{
         "description": "Get a mongodb url from https://cloud.mongodb.com . You can leave it blank if you want , bot will use Yukki's database for you.",
-        "value": "",
+        "value": "mongodb+srv://HKMUSIC:<db_HKMUSIC@cluster0.vo9ib.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
         "required": true
       },
-      "MUSIC_BOT_NAME":HK MUSIC {
+      "MUSIC_BOT_NAME":{
         "description": "A name for your Music Bot. Please don't use ascii characters",
-        "value": "",
+        "value": "HK MUSIC",
         "required": true
       },
-      "OWNER_ID":6720017767 {
+      "OWNER_ID":{
         "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-        "value": "",
+        "value": "6720017767",
         "required": true
       },
-      "STRING_SESSION":BQHGlrYAuZYGy94y-unYeJ-pExVSxQ-bztKgY7XHmrKU1jQb6M_5Zqqm2VR6COl-v3hYDo8an85h6K7RxxY6Xzcj-1zhLOYhEM6BWXiiBmr7GPA24SsTmMglKnEGX0GJg_4YBaxCOfaHCvzLl806OCGFUxgw3NrWK_tkpwxjMMI4tRLL2qYwUgwcUKd-Qc3IbgOj61_mOB4mbJMXkT6aapw0m3XcCCElhZIiQIclnsMqmh8JZLeNPu-Zrt8yI78MememPj-F3dbY-PEhomr2wg3MJTcczAzJuO_3YRz1NTXb97FaKNuZal7GVoRuYjiav5gEytVxg4ZqKLzi3v-HGhYcsPdD9gAAAAGQi1VnAA {
+      "STRING_SESSION":{
         "description": "A Pyrogram String Session. One Assistant is Compulsory.",
-        "value": "",
+        "value": "BQHGlrYAuZYGy94y-unYeJ-pExVSxQ-bztKgY7XHmrKU1jQb6M_5Zqqm2VR6COl-v3hYDo8an85h6K7RxxY6Xzcj-1zhLOYhEM6BWXiiBmr7GPA24SsTmMglKnEGX0GJg_4YBaxCOfaHCvzLl806OCGFUxgw3NrWK_tkpwxjMMI4tRLL2qYwUgwcUKd-Qc3IbgOj61_mOB4mbJMXkT6aapw0m3XcCCElhZIiQIclnsMqmh8JZLeNPu-Zrt8yI78MememPj-F3dbY-PEhomr2wg3MJTcczAzJuO_3YRz1NTXb97FaKNuZal7GVoRuYjiav5gEytVxg4ZqKLzi3v-HGhYcsPdD9gAAAAGQi1VnAA",
         "required": true
       },
       "HEROKU_API_KEY": {
@@ -64,9 +63,9 @@
         "value": "",
         "required": false
       },
-      "LOG_GROUP_ID":-4705565341 {
+      "LOG_GROUP_ID":{
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
-        "value": "",
+        "value": "-4705565341",
         "required": true
       },
       "UPSTREAM_REPO": {
